@@ -1,0 +1,19 @@
+/*
+1. Posicionamiento
+2. Modelo de caja
+3. Tipografia
+4. Visuales
+5. Miscelanos / Otros*/
+:root{
+    --blue-hard: #023047;
+    --blue-soft: #8ecae6;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: fantasy;
+}
