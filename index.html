@@ -4,32 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <title>Game JS - R, P and S.</title>
 </head>
 <body>
-    <header>  
+    <section id="modal" class="modal">
+        <section class="modal_container">
+            <p>Ingresa el numero de victorias</p>
+            <input type="number" id="input_attempt_max">
+            <p id="mayor_a_zero"></p>
+            <button id="btnAcept" onclick="winMax()">Aceptar</button>
+        </section>
+    </section>
+    <header>
         <h1>ROCK, PAPER AND SCISSORS GAME</h1>
     </header>
-    <main>    
-        <section class="main__game-container">
-            <h2>Escoge tu opción...</h2>
-            <article>
-                <img src="./images/rock.png" alt="Icono de piedra">
-                <img src="./images/paper.png" alt="Icono de papel">
-                <img src="./images/scissors.png" alt="Icono de tijera">
-            </article>
-            <h2>Puntaje</h2>
-            <article>
-                <p>Puntaje user</p>
-                <p>VS</p>          
-                <p>Puntaje pc</p>
-            </article>            
+    <main>
+        <section class="score_container">
+            <div class="attempt_container">
+                <p>Intentos: </p>
+                <span id="attempt_max">0</span>
+                <p>Intento N°: </p>
+                <span id="num_attempt">0</span>
+            </div>
+            <div class="score">
+                <p>User wins: </p>
+                <span id="userWins_score">0</span>
+                <p>PC wins: </p>
+                <span id="pcWins_score">0</span>
+                <p>Draws: </p>
+                <span id="draws_score">0</span>
+            </div>
         </section>
+        <h2>Escoge tu opcion...</h2>
+        <article class="user_options">
+            <img id="stone" src="./images/rock.png" data-option="stone" alt="Icono de piedra">
+            <img id="paper" src="./images/paper.png" data-option="paper" alt="Icono de papel">
+            <img id="scissor" src="./images/scissors.png" data-option="scissor" alt="Icono de tijera">
+        </article>
+        <button id="btnPlay" class="btnPlay" onclick="empezarJuego()">GO!</button>
+        <article class="pc_option">
+            <img id="pc_option" class="tamano question">
+        </article>
+        <p id="winner" class="winner">El ganador es: </p>
     </main>
     <footer>
-        <p>Made with ❤ by <a href="https://github.com/MauricioJCarrillo/6.curso_javascript_basico_platzi.git">MauricioJCarrillo</a></p> 
+        <p>Made with 💡 by <a href="https://github.com/MauricioJCarrillo/6.curso_javascript_basico_platzi.git">MauricioJCarrillo</a></p>
     </footer>
-    <script src="./game.js"></script>    
+    <script src="./game.js"></script>
 </body>
 </html>
