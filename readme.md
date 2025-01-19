@@ -1,12 +1,12 @@
-# Rock, Paper and Scissors Game.
+# Rock, Paper and Scissors Game
 
-This project is a "Rock, paper and scissors game" using JavaScript Foundations.
+This project is a "Rock, paper and scissors game" using JavaScript Foundations. If you want to create a project like this, you can check out this course: [Curso básico de Javascript - 2020](https://platzi.com/clases/old/basico-javascript/) on Platzi.
 
-## GitHub Pages:
+## GitHub Pages
 
 [Practice - Rock, paper and scissors game](https://mauriciojcarrillo.github.io/6.curso_javascript_basico_platzi)
 
-## Technologies and concepts:
+## Technologies and concepts
 
 - HTML.
 - CSS.
