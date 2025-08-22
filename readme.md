@@ -4,7 +4,7 @@ This project is a "Rock, paper and scissors game" using JavaScript Foundations. 
 
 ## GitHub Pages
 
-[Practice - Rock, paper and scissors game](https://mauriciojcarrillo.github.io/rock-paper-scissors-game)
+[Practice - Rock, paper and scissors game](https://mauriciojcarrillo.github.io/rock-paper-scissors-vanilla-game)
 
 ## Technologies and concepts
 
